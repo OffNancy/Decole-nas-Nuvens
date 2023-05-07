@@ -1,0 +1,795 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*.............cabeçalho..........*/
+
+
+header{
+    display: flex;
+    background-color: rgb(69, 69,);
+    height: 30rem;
+    background: linear-gradient( purple, rgb(120, 120, 207));
+
+  
+}
+#euquero{
+    position: absolute;
+    margin-top: -320px;
+    color: white;
+    
+
+
+
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32rem;
+    margin-bottom: 23rem;
+    list-style: none;
+
+    
+    
+}
+header li{
+    margin: 2rem;
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    font-size: 13px;
+    
+}
+
+.viaje{
+ position: absolute;
+margin-left: 310px;
+bottom:  33rem;
+color: white;
+
+
+}
+header img{
+ width: 8rem;
+ border-radius: 50%;
+ width: 10rem;
+ height: 10rem;
+ margin-left: 3px;
+ 
+ 
+
+
+
+}
+
+#img1{
+    position: relative;
+    bottom: 65px;
+}
+
+    
+    
+
+
+div h1{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    display: flex;
+    
+}
+div h2{
+    margin-left: 5rem;
+    margin-top: 20rem;
+    display: flex;
+}
+iframe{
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+#p1{
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+h3{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+ol{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    list-style: nome;
+}
+
+section{
+display: flex;
+width: 510px;
+height: 10pxrem;
+margin-left: 20rem;
+background-color: (violet);
+
+
+}
+section ol{
+    display: flex;
+    margin-right: 50rem;
+    list-style: none;
+    position: absolute;
+    top: 29rem;
+    background-color: blueviolet;
+    height: 17rem;
+    width: 57rem;
+    left: 10rem;
+    border-radius: 1%;
+
+
+
+}
+section li{
+    margin: 3rem;
+    text-align: center;
+    position: relative;
+    bottom: 3rem;
+
+    
+    
+    
+}
+#lipassagem{
+color: white;
+height: 40px;
+width: 270px;
+right: 5rem;
+position: relative;
+
+}
+#hoteis{
+    
+    color: white;
+    padding: 0.2rem;
+    position: relative;
+    right: 12rem;
+}
+#seguro{
+position: relative;
+    color: white;
+    padding: 0.2rem;
+    right: 12rem;
+    
+}
+
+.voe{
+    position: relative;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    }
+
+   /*... ..........segunda parte.........*/
+
+.container{
+    display: flex
+}
+.idaevolta{
+    position: relative;
+    margin-left: 27rem;
+    margin-top: 2rem;
+    border: 1px solid rgb(81, 81, 196)e;
+    padding: 0.3rem;
+    background-color: rgb(81, 81, 196);
+    color: white;
+    border-radius: 1%;
+}
+.ida{
+    
+        position: relative;
+        margin-left: 8rem;
+        margin-top: 2rem;
+        border: 2px solid white;
+        padding: 0.3rem;
+        border-radius: 2%;
+        background-color: white;
+        
+}
+  
+.origem{
+ position: relative;
+ margin-left: 14rem;
+ border: 1px solid white;
+ background-color: white;
+ width: 28rem;
+ height: 3rem;
+ margin-top: 2rem;
+ color: rgb(143, 117, 117);
+ border-radius: 3%;
+ padding: 0.3rem;
+ border: 1px solid rgb(192, 177, 177);
+ border-left: none;
+ border-top: none;
+ border-bottom: none;
+ 
+ 
+ }
+
+ .localizaçao{
+    width: 25px;
+    position: relative;
+    top: 0.4rem;
+  }  
+
+.destino{
+    position: relative;
+    
+    margin-left: 43rem;
+    border: 1px solid white;
+    background-color: white;
+    width: 25rem;
+    bottom: 3rem;
+    border-radius: 3%;
+    height: 3rem;
+    color: rgb(143, 117, 117);
+    padding: 0.5rem;
+}
+.aviao{
+
+    width: 25px;
+    position: relative;
+    top: 0.4rem;
+}
+
+.idaa{
+  position: absolute;
+  margin-left: 14rem;
+  width: 14rem;
+ height: 3rem;
+ background-color: white;
+ border-radius: 3%;
+ padding: 0.5rem;
+ border: 1px solid rgb(192, 177, 177);
+ border-left: none;
+ border-top: none;
+ border-bottom: none;
+ color: rgb(143, 117, 117);
+ 
+ 
+}
+  
+
+.volta{
+ position: absolute;
+ margin-left: 28.3rem;
+ width: 14rem;
+ height: 3rem;
+ background-color: white;
+ padding: 0.5rem;
+ border-radius: 3%;
+ border: 1px solid rgb(192, 177, 177);
+ border-left: none;
+ border-top: none;
+ border-bottom: none;
+ color: rgb(143, 117, 117);
+ 
+}
+.passageiros{
+ position: absolute;
+ margin-left: 42.6rem;
+ width: 15rem;
+ height: 3rem;
+ background-color: white;
+ border-radius: 3%;
+ padding-left: 2.5rem;
+ padding: 0.5rem;
+ border: 1px solid rgb(192, 177, 177);
+ border-left: none;
+ border-top: none;
+ border-bottom: none;
+ color: rgb(143, 117, 117);
+ margin-top: -18px;
+ 
+ 
+}
+
+.pesquisar{
+    position: absolute;
+    margin-left: 58rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 3%;
+    padding: 0.8rem;
+    padding-left: 2rem;
+    color: white;
+    background-color: orangered;
+    margin-top: -18px;
+
+    
+}
+.idaimg{
+    width: 25px;
+    position: relative;
+    top: 0.4rem;
+
+}
+.voltaimg{
+    width: 25px;
+    position: relative;
+    top: 0.4rem;
+}
+ .passageiroimg{
+    width: 25px;
+    position: relative;
+    top: 0.4rem;
+}
+
+/*......................... terceira parte ......................................*/
+
+.oferta{
+    margin-top: 8rem;
+    margin-left: 5rem;
+    color: rgb(52, 43, 43);
+    font-size: 25px;
+    
+}
+
+
+
+.madrugada{
+    width: 410px;
+    height: 120px;
+    left: 10rem;
+    border-radius: 3%;
+    position: relative;
+
+
+}
+
+
+.hotel{
+   left: 38rem;
+    width: 410px;
+    height: 120px;
+    text-align: center;
+    bottom: 7.5rem;
+    position: relative;
+    padding-bottom: 4rem;
+    padding-right: 10rem;
+    border-radius: 3%;
+    background: linear-gradient(blue,purple);
+    border: 1px solid;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    
+}
+dl{
+  font-size: 2rem;
+  padding-bottom: 0.2rem;
+  padding: 2rem;
+  padding-left: 2rem;
+}
+.ofertaimg{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: 15rem;
+    top: 1.3rem;
+
+
+
+}
+button{
+    bottom: 5rem;
+    position: relative; 
+    left: 14rem;   
+}
+/*................................parte 4........................................*/
+
+.divh2{
+    position: relative;
+   bottom: 25rem;
+   margin-right: 20rem;
+   font-size: 2rem;
+   color: rgb(39, 31, 31);
+   
+}
+.divh2img{
+    width: 2rem;
+    color: rgb(39, 31, 31);
+}
+
+
+.divh3{
+    position: relative;
+    bottom: 5rem;
+    color: rgb(39, 31, 31);
+    left: 8rem;
+    font-size: 1.5rem;
+}
+  .floripa{
+  display: flex;
+  position: relative;
+  bottom: 17rem;
+  right: 9rem;
+  
+  }
+  .flori{
+    margin: 1rem;
+    
+}
+.ofertas{
+    position: relative;
+    padding: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    top: rem;
+    
+
+}
+
+
+.passagemarea{
+    display: flex;
+   bottom: 12rem;
+    position: relative;
+}
+.gol{
+    margin: 3rem;
+    position: relative;
+    top:15rem;
+    border-radius: 4%;
+
+
+}
+
+
+.latam{
+    margin: 3rem;
+    position: relative;
+    top:15rem;
+    border-radius: 4%;
+
+  
+}
+.latamp{
+    border: 1px solid white;
+    width: 273px;
+    position: relative;
+   margin-left: 3rem;
+    text-align: center;
+    background-color: white;
+    padding: 0.5em;
+    font-size: 15px;
+    bottom: 0.8rem;
+    border-top-right-radius: none;
+   border-bottom-right-radius: 4%;    
+   border-bottom-left-radius: 4%;
+
+
+
+    
+
+     
+}
+
+.azul{
+    
+    margin: 3rem;
+    width: 300px;
+    position: relative;
+    top:15rem;
+    border-radius: 4%;
+
+    
+
+}
+
+
+.azulp{
+border: solid 1px white;
+width: 299px;
+position: relative;
+left: 26.1rem;
+text-align: center;
+background-color: white;
+bottom: 7.4rem;
+padding: 1.2em;
+font-size: 15px;
+border-top-right-radius: none;
+border-bottom-right-radius: 4%;
+border-bottom-left-radius: 4%;
+
+
+
+
+
+
+} 
+.golp{
+ border: solid 1px white;
+width: 285.3px;
+position: relative;
+bottom:  13.5rem;
+left: 50.8rem;
+text-align: center;
+background-color: white;
+padding: 1rem;
+font-size: 15px;
+border-top-right-radius: none;
+border-bottom-right-radius: 4%;
+border-bottom-left-radius: 4%;
+
+
+}
+h6{
+    background-color: beige;
+  margin-top: -100px;
+}
+
+.airfrance{
+
+    position: relative;
+    bottom: 10rem;
+    margin-left: 2rem;
+    border-radius: 4%;
+
+}
+
+.america{
+    margin-bottom: 10rem;
+    margin-left: 4rem;
+    border-radius: 4%;
+
+}
+
+
+
+.tap{
+    bottom: 10rem;
+    left: 3rem;
+    border-radius: 4%;
+    position: relative;
+
+}
+.airfrancep{
+
+    border: 1px solid white;
+    width: 304px;
+    position: relative ;
+    bottom: 10.7rem;
+    left: 2rem;
+    padding: 1rem;
+    background-color: white;
+    font-size: 15px;
+    border-top-right-radius: none;
+    border-bottom-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+}   
+.americap{
+   position: relative;
+    padding: 1rem;
+    background-color: white;
+    font-size: 15px;
+    width: 265px;
+    bottom: 18rem;
+    left: 25.2rem;
+    border-top-right-radius: none;
+    border-bottom-right-radius: 4%;
+    border-bottom-left-radius: 4%; 
+}
+.tapp{
+    position: relative;
+    padding: 1rem;
+    background-color: white;
+    font-size: 15px;
+    width: 307px;
+    bottom: 25.3rem;
+    left: 44.9rem;
+    border-top-right-radius: none;
+    border-bottom-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+}
+.santa{
+    margin-left: 20px;
+    font-family:sans-serif;
+}
+
+
+.container1{
+
+    background-color: blueviolet;
+    border-top: dashed blueviolet;
+    
+}
+.container1 img{
+
+    width: 4rem;
+    position: relative;
+    left: 65rem;
+    bottom: 2.5rem;
+    
+
+    }
+   
+   .px{
+
+
+    font-size: 2rem;
+    font-weight: bold;
+    
+    position: relative;
+    margin: 2rem;
+    color: white;
+    
+}
+b{
+    font-size: 1.2rem;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 9px;
+    margin: 2rem;
+    text-align: center;
+    position: relative;
+    bottom: 4rem;
+    
+}
+.py{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.PA{
+    margin-left: 60rem;
+    bottom: 9.5rem;
+    position: relative;
+    border: 1px solid white;
+    background-color: white;
+    width: 130px;
+    text-align: center;
+    border-radius: 6%;
+    font-size: 1.1rem;
+    color: rgb(104, 15, 104);
+    
+}
+.CADN{
+    position: relative;
+    margin-left: 60rem;
+    bottom: 7rem;
+    border-radius: 10px;
+    text-align: center;
+    border: solid 1px white;
+    width: 300px;
+    height: 2rem;
+    text-align: center;
+    padding: 0.1rem;
+    
+}
+
+.nacional{
+  margin-left: 2rem;
+  border: 1px solid white;
+  background-color: blueviolet;
+  width: 230px;
+  height: 1.5rem;
+  text-align: center;
+  border-radius: 9px;
+  color: white;
+  font-size: 1.2rem;
+ }
+
+
+.internacional{
+ margin-left: 23rem;
+ position: relative;
+ bottom: 1.5rem;
+ border: 1px solid white;
+ background-color:blueviolet;
+ width: 220px;
+ height: 1.5rem;
+ text-align: center;
+ border-radius: 9px;
+ color: white;
+ font-size: 1.2rem;
+ 
+}
+strong{
+ font-weight: bolder;
+
+}
+h5{
+    font-size: 25px;
+    color: purple;
+    margin-left: 1.5rem;
+}
+.container3{
+list-style: none;
+
+
+}
+.container4{
+
+    position: relative;
+    margin-left: 30rem;
+    bottom: 11rem;
+    list-style: none;
+   
+}
+
+
+.container5{
+    
+    position: relative;
+  
+    display: flex;
+    
+}
+
+.cartoes{
+
+    width: 15rem;
+    margin: 1rem;
+}
+
+.h66{
+    
+    font-size: 30px;
+    
+    background-color: white;
+    position: absolute;
+    bottom: 14rem;
+   
+    left: 25rem;
+
+}
+
+.pagamento{
+    font-size: 18px;
+    margin: 1rem;
+    position: relative;
+    bottom: 1.8rem;
+    left: 12rem;
+}
+.pixc{
+    width: 10rem;
+    height: 5rem;
+    position: relative;
+    margin-left: 3rem;
+    top: 1rem;
+}
+.pix{
+    left: 7rem;
+    position: relative;
+    bottom: 1rem;
+}
+.TB{
+    position:relative;
+    bottom: 1rem;
+       left: 12rem ;
+}
+
+.container6{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    
+}
+.container6 li{
+    margin: 2rem;
+    font-size: 1.22rem;
+}
+
+.rodape{
+    margin-left: 3rem;
+}
+
+    
+    
